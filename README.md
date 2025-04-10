@@ -21,10 +21,6 @@ Skripta run.sh prevodi gSAIS.cpp i pokreće ga s podacima iz mape ecoli.
 
 U bioinformatici se često javlja potreba za pretraživanjem velikih nizova (DNA i proteinskih sljedova) različitim podnizovima. Kako bi se taj problem riješio u razumnom vremenu, potrebno je koristiti efikasne strukture indeksiranja teksta, kao što su sufiksno stablo i sufiksno polje, koje se mogu izgraditi u linearnom vremenu. Sufiksno polje samo po sebi ima neke nedostatke u odnosu na sufiksno stablo pa se zato često proširuje i nadograđuje. Algoritam gSAIS nadogradnja je popularnog SAIS algoritma za izgradnju sufiksnog polja koja omogućuje izgradnju sufiksnog polja nad kolekcijom nizova.
 
-**Ključne riječi**: bioinformatika, sufiksno polje, SAIS, gSAIS
-
 ## Abstract
 
 In bioinformatics there is often need to search large strings (DNA and protein sequences) with different substrings. In order to solve this problem in reasonable time, it is necessary to use efficient text indexing structures, such as suffix trees and suffix arrays, which can be built in linear time. The suffix array itself has some disadvantages compared to the suffix tree and is often expanded and upgraded. The gSAIS algorithm is an upgrade of the popular SAIS suffix array construction algorithm that allows the construction of a suffix array over a collection of strings.
-
-**Keywords**: bioinformatics, suffix array, SAIS, gSAIS
